@@ -30,11 +30,16 @@
       align-items: center;
     }
 
-    .logo {
-      font-size: 24px;
-      font-weight: 800;
-      letter-spacing: 3px;
-    }
+   .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    display: block;
+    width: 180px;
+    height: auto;
+}
 
     nav a {
       color: #aeb5c2;
@@ -152,7 +157,9 @@
 <body>
 
 <header>
-  <div class="logo">CYCLAZ</div>
+  <div class="logo">
+    <img src="cyclaz-logo.png" alt="CYCLAZ">
+</div>
   <nav>
     <a href="privacy-policy.html">Privacy Policy</a>
   </nav>
